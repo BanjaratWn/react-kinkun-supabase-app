@@ -10,10 +10,10 @@ export default function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Routes path="/" element={<Home />} />
-          <Routes path="/addkinkun" element={<AddKinkun />} />
-          <Routes path="/editkinkun" element={<EditKinkun />} />
-          <Routes path="/showallkinkun" element={<ShowAllKinkun />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/addkinkun" element={<AddKinkun />} />
+          <Route path="/editkinkun" element={<EditKinkun />} />
+          <Route path="/showallkinkun" element={<ShowAllKinkun />} />
         </Routes>
       </BrowserRouter>
     </>
