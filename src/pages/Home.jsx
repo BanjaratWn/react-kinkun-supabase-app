@@ -65,7 +65,7 @@ export default function Home() {
 
         <button onClick={handleAccessAppClick}
                 className="w-full bg-blue-700 p-3 rounded-md text-white
-                        mt-5 hover:bg-blue-800 curdor-poiter"
+                        mt-5 hover:bg-blue-800 cursor-pointer"
         >
           เข้าใช้งาน
         </button>
