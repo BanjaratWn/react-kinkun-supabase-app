@@ -21,6 +21,7 @@ export default function EditKinkun() {
     // โค้ดที่จะให้ทำงานเมื่อมี Effect เกิดขึ้นกับ Component
     // ดึงข้อมูลการกินหนึ่งๆ ที่จะมาแก้ไขจาก Supabase โดยสร้างเป็นฟังก์ชัน
     const fetchKinkun = async () => {
+      //ดึงจาก Supabase
       const { data, error } = await supabase
         .from("kinkun_tb")
         .select("*")
@@ -145,7 +146,7 @@ export default function EditKinkun() {
     //บันทึกข้อมูลไปที่ table บน Supabase
     const { error } = await supabase
       .from("kinkun_tb")
-      .insert({
+      .update({
         food_name: food_name,
         food_where: food_where,
         food_pay: food_pay,
