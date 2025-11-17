@@ -43,7 +43,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="w-10/12 mx-auto border-gray-300 p-4 shadow-lg mb-5">
+      <div className="w-10/12 mx-auto border-gray-300 p-4 shadow-lg mb-5 mt-20">
         <h1 className="text-2xl font-bold text-center text-blue-700">
           Kinkun APP (Supabase)
         </h1>
